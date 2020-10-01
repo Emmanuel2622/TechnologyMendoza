@@ -1,0 +1,93 @@
+element.style {
+}
+media="(max-width: 1023px)"
+.nav-header .nav-bounds .nav-search {
+    height: 48px;
+    left: 64px;
+}
+media="(max-width: 1023px)"
+.nav-bounds-with-cart .nav-search {
+    right: 94px;
+}
+media="(max-width: 1023px)"
+.nav-search {
+    z-index: 910;
+    will-change: left;
+    -webkit-transition: left .15s ease-out;
+    transition: left .15s ease-out;
+}
+media="(max-width: 1023px)"
+.nav-search {
+    position: absolute;
+    left: 59px;
+    top: 0;
+    right: 45px;
+    height: 50px;
+    padding: 8px 0;
+}
+media="(max-width: 1023px)"
+.nav-header, .nav-header *, .nav-header :after, .nav-header :before {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+user agent stylesheet
+form {
+    display: block;
+    margin-top: 0em;
+}
+media="(max-width: 1023px)"
+.nav-header {
+    font-family: "Proxima Nova",-apple-system,"Helvetica Neue",Helvetica,Roboto,Arial,sans-serif;
+    color: #333;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    -webkit-tap-highlight-color: transparent;
+    cursor: default;
+}
+media="(max-width: 1023px)"
+body {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-height: 100vh;
+    height: auto;
+}
+media="(max-width: 1023px)"
+body {
+    border-collapse: collapse;
+    display: table;
+    background-color: #fff;
+    font-family: "Proxima Nova",-apple-system,"Helvetica Neue",Helvetica,Roboto,Arial,sans-serif,sans-serif;
+    font-size: 14px;
+    table-layout: fixed;
+}
+media="(max-width: 1023px)"
+.nav-search:before {
+    content: '';
+    display: none;
+    position: absolute;
+    top: 0;
+    left: -10px;
+    right: -10px;
+    height: 100%;
+    background-color: #fff;
+    opacity: 0;
+    will-change: opacity;
+    -webkit-transition: opacity .15s ease-out;
+    transition: opacity .15s ease-out;
+}
+media="(max-width: 1023px)"
+.nav-header, .nav-header *, .nav-header :after, .nav-header :before {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+media="(max-width: 1023px)"
+.nav-header, .nav-header *, .nav-header :after, .nav-header :before {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;

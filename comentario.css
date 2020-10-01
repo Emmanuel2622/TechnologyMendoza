@@ -1,0 +1,52 @@
+*{
+margin: 0px;
+padding: 0px;
+}
+
+.header{
+    width: 100%;
+    height: 100px;
+    background:rgb(255, 103, 1);
+}
+
+.ctn-header{
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    position: relative;
+    top: 5px;
+}
+
+.lbl-header{
+    font-family: cursive;
+    font-size: 20px;
+}
+
+.ctn-data{
+    width: 90%;
+    margin: auto;
+    padding: 10px;
+}
+
+.p-data{
+    font-family: Arial;
+    font-size: 18px;
+    background: chocolate;
+    margin-top: 10px;
+    position: relative;
+    top: 150;
+}
+
+.ctn-lbl-comentar{
+    width: 100%;
+    text-align: center;
+    position: relative;
+    top: 160px;
+}
+
+.lbl-comentar{
+    font-family: cursive;
+    font-size: 20px;
+
+    text-shadow: 1px, 2px, 1px rgb(4, 0, 255) ;
+}
